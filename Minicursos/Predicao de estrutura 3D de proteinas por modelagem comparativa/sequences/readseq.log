@@ -1,0 +1,208 @@
+
+                         MODELLER 10.5, 2024/01/19, r12711
+
+     PROTEIN STRUCTURE MODELLING BY SATISFACTION OF SPATIAL RESTRAINTS
+
+
+                     Copyright(c) 1989-2024 Andrej Sali
+                            All Rights Reserved
+
+                             Written by A. Sali
+                               with help from
+              B. Webb, M.S. Madhusudhan, M-Y. Shen, G.Q. Dong,
+          M.A. Marti-Renom, N. Eswar, F. Alber, M. Topf, B. Oliva,
+             A. Fiser, R. Sanchez, B. Yerkovich, A. Badretdinov,
+                     F. Melo, J.P. Overington, E. Feyfant
+                 University of California, San Francisco, USA
+                    Rockefeller University, New York, USA
+                      Harvard University, Cambridge, USA
+                   Imperial Cancer Research Fund, London, UK
+              Birkbeck College, University of London, London, UK
+
+
+Kind, OS, HostName, Kernel, Processor: 4, Windows Vista build 9200, MATHEUS, SMP, unknown
+Date and time of compilation         : 2024/01/20 00:12:57
+MODELLER executable type             : x86_64-w64
+Job starting time (YY/MM/DD HH:MM:SS): 2024/07/13 20:30:11
+
+environ____W> The class 'environ' is deprecated; use 'Environ' instead
+openf___224_> Open           $(LIB)/restyp.lib
+openf___224_> Open           ${MODINSTALL10v5}/modlib/resgrp.lib
+rdresgr_266_> Number of residue groups:        2
+openf___224_> Open           ${MODINSTALL10v5}/modlib/sstruc.lib
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:       191566     187.076     0.183
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:       192094     187.592     0.183
+openf___224_> Open           ${MODINSTALL10v5}/modlib/resdih.lib
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:       240694     235.053     0.230
+rdrdih__263_> Number of dihedral angle types         :        9
+              Maximal number of dihedral angle optima:        3
+              Dihedral angle names                   :  Alph Phi Psi Omeg chi1 chi2 chi3 chi4 chi5
+openf___224_> Open           ${MODINSTALL10v5}/modlib/radii.lib
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:       253994     248.041     0.242
+openf___224_> Open           ${MODINSTALL10v5}/modlib/af_mnchdef.lib
+rdwilmo_274_> Mainchain residue conformation classes:  APBLE
+openf___224_> Open           ${MODINSTALL10v5}/modlib/mnch.lib
+rdclass_257_> Number of classes:        5
+openf___224_> Open           ${MODINSTALL10v5}/modlib/mnch1.lib
+openf___224_> Open           ${MODINSTALL10v5}/modlib/mnch2.lib
+openf___224_> Open           ${MODINSTALL10v5}/modlib/mnch3.lib
+openf___224_> Open           ${MODINSTALL10v5}/modlib/xs4.mat
+rdrrwgh_268_> Number of residue types:       21
+IOData_____W> Setting io.atom_files_directory to a colon-delimited string is
+              deprecated, as it is not robust on Windows systems. Set it to
+              a list of directories instead. For example:
+              env.io.atom_files_directory = ['./', '../atom_files']
+model______W> The class 'model' is deprecated; use 'Model' instead
+openf___224_> Open           ./\./5lsa.pdb
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       265223     259.007     0.253
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       265299     259.081     0.253
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       265470     259.248     0.253
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       266320     260.078     0.254
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       267578     261.307     0.255
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       269482     263.166     0.257
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       269522     263.205     0.257
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       269612     263.293     0.257
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       272468     266.082     0.260
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       272528     266.141     0.260
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       272663     266.272     0.260
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       276947     270.456     0.264
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       277035     270.542     0.264
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       277233     270.735     0.264
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       283659     277.011     0.271
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       283791     277.140     0.271
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       284088     277.430     0.271
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       293710     286.826     0.280
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       293910     287.021     0.280
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       294360     287.461     0.281
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       308810     301.572     0.295
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       309110     301.865     0.295
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       309785     302.524     0.295
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       331443     323.675     0.316
+read_pd_459W> Residue type   CL not recognized. 'AutoModel' model building
+              will treat this residue as a rigid body.
+              To use real parameters, add the residue type to ${LIB}/restyp.lib,
+              its topology to ${LIB}/top_*.lib, and suitable forcefield
+              parameters to ${LIB}/par.lib.
+read_pd_459W> Residue type  SAM not recognized. 'AutoModel' model building
+              will treat this residue as a rigid body.
+              To use real parameters, add the residue type to ${LIB}/restyp.lib,
+              its topology to ${LIB}/top_*.lib, and suitable forcefield
+              parameters to ${LIB}/par.lib.
+read_pd_459W> Residue type  DNC not recognized. 'AutoModel' model building
+              will treat this residue as a rigid body.
+              To use real parameters, add the residue type to ${LIB}/restyp.lib,
+              its topology to ${LIB}/top_*.lib, and suitable forcefield
+              parameters to ${LIB}/par.lib.
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       331891     324.112     0.317
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       332899     325.097     0.317
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       333571     325.753     0.318
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       335083     327.229     0.320
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       367587     358.972     0.351
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:       623651     609.034     0.595
+read_mo_297_> Segments, residues, atoms:        1      468     1963
+read_mo_298_> Segment:        1  53:A  650:A     1963
+alignment__W> The class 'alignment' is deprecated; use 'Alignment' instead
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:       638175     623.218     0.609
+
+Dynamically allocated memory at   amaxstructure [B,KiB,MiB]:       851413     831.458     0.812
+openf___224_> Open           ./5lsa.seq
+model______W> The class 'model' is deprecated; use 'Model' instead
+openf___224_> Open           ./\./4pyi.pdb
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       862450     842.236     0.822
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       862526     842.311     0.823
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       862697     842.478     0.823
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       863547     843.308     0.824
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       864805     844.536     0.825
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       866709     846.396     0.827
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       866749     846.435     0.827
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       866839     846.522     0.827
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       869695     849.312     0.829
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       869755     849.370     0.829
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       869890     849.502     0.830
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       874174     853.686     0.834
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       874262     853.771     0.834
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       874460     853.965     0.834
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       880886     860.240     0.840
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       881018     860.369     0.840
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       881315     860.659     0.840
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       890937     870.056     0.850
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       891137     870.251     0.850
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       891587     870.690     0.850
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       906037     884.802     0.864
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       906337     885.095     0.864
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       907012     885.754     0.865
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       928670     906.904     0.886
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      1083230    1057.842     1.033
+read_mo_297_> Segments, residues, atoms:        1      207     1611
+read_mo_298_> Segment:        1  54:A  266:A     1611
+alignment__W> The class 'alignment' is deprecated; use 'Alignment' instead
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:       492958     481.404     0.470
+
+Dynamically allocated memory at   amaxstructure [B,KiB,MiB]:       612535     598.179     0.584
+openf___224_> Open           ./4pyi.seq
+
+Dynamically allocated memory at          finish [B,KiB,MiB]:       612535     598.179     0.584
+Starting time                                            : 2024/07/13 20:30:11
+Closing time                                             : 2024/07/13 20:30:11
+Total CPU time [seconds]                                 :       0.13

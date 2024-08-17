@@ -1,0 +1,19 @@
+
+>> Summary of successfully produced model
+Filename                          molpdf     DOPE score    GA341 score Normalized DOPE score
+--------------------------------------------------------------------------------------------
+alvo.B99990001.pdb            2804.92822   -51749.64844        1.00000       -1.11583
+alvo.B99990002.pdb            2806.69922   -51423.73828        1.00000       -1.06361
+alvo.B99990003.pdb            2935.14258   -51794.78906        1.00000       -1.12306
+
+>> Top model results:
+molpdf:  2804.92822266 (file:  alvo.B99990001.pdb )
+DOPE score:  -51794.7890625 (file:  alvo.B99990003.pdb )
+GA341 score:  1.0 (file:  alvo.B99990003.pdb )
+Normalized DOPE score:  -1.12306034295 (file:  alvo.B99990003.pdb )
+
+>> Cluster results:
+REMARK   6 MODELLER OBJECTIVE FUNCTION:      2025.7352 (molpdf)
+DOPE score:  -54608.171875
+GA341 score:  1.0
+Normalized DOPE score:  -1.57384784191
