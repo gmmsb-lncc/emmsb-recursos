@@ -1,0 +1,7 @@
+parm lyz_bnz_solv_ions.parm7
+trajin md10ns.nc 2000 50000 1
+trajin md10ns2.nc
+autoimage anchor :1-162 fixed :1-163
+rms first :1-162@C,N,CA
+distance d1 :163@C2 :99@CA out distance.dat
+go

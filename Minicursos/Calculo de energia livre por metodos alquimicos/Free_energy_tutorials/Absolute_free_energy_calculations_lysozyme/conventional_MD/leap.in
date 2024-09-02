@@ -1,0 +1,20 @@
+#load force-fields and ligand parameters
+source leaprc.protein.ff19SB
+source leaprc.water.opc
+source leaprc.gaff2
+loadamberparams bnz.frcmod
+
+#load structure files for protein and ligand
+BNZ = loadmol2 bnz_bcc.mol2
+prot = loadpdb LYZ.pdb
+wat = loadpdb water.pdb
+
+#generate complex topology and restart files
+complex = combine { prot BNZ wat }
+solvateoct complex OPCBOX 10.0 0.75
+addionsrand complex Na+ 0
+addionsrand complex Cl- 0
+saveamberparm complex lyz_bnz_solv_ions.parm7 lyz_bnz_solv_ions.rst7
+savepdb complex lyz_bnz_solv_ions.pdb 
+charge complex
+quit

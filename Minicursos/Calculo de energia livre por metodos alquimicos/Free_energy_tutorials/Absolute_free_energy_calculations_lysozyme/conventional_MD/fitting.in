@@ -1,0 +1,8 @@
+parm lyz_bnz_solv_ions.parm7
+trajin md10ns.nc 1 5000 5
+trajin md10ns2.nc 1 5000 5
+autoimage fixed :1-163 anchor :1-162
+rms first :1-162@C,N,CA out rms_lyz.dat 
+rms first :163&!(@H=) out rms_bnz.dat nofit 
+trajout trajectory_fitted.nc nobox
+go

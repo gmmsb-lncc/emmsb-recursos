@@ -1,0 +1,9 @@
+parm lyz_bnz_solv_ions.parm7
+trajin md10ns.nc 2000 5000 1
+trajin md10ns2.nc
+autoimage anchor :1-162 fixed :1-163
+rms first :1-162@C,N,CA
+dihedral d1 :153@CA :78@CA :99@CA :163@C2 out dihedrals.dat
+dihedral d2 :78@CA :99@CA :163@C2 :163@C4 out dihedrals.dat
+dihedral d3 :99@CA :163@C2 :163@C4 :163@C6 out dihedrals.dat
+go

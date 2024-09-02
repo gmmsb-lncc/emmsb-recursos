@@ -1,0 +1,152 @@
+Started on Tue Aug 13 17:32:08 2024
+Command line was: /scratch/txsaureus/softwares/amber18/miniconda/lib/python2.7/site-packages/alchemical_analysis-1.0.2.dev0-py2.7.egg/alchemical_analysis/alchemical_analysis.py -a AMBER -d . -p *.*/ti00[1-2] -q out -o . -r 5 -u kcal -s 2000 --methods=TI -i 1
+
+Loading in data from ./0.20/ti001.out...  5000 data points, 1 DV/DL averages
+Loading in data from ./0.15/ti001.out...  5000 data points, 1 DV/DL averages
+Loading in data from ./0.95/ti001.out...  5000 data points, 1 DV/DL averages
+Loading in data from ./0.85/ti001.out...  5000 data points, 1 DV/DL averages
+Loading in data from ./0.75/ti001.out...  5000 data points, 1 DV/DL averages
+Loading in data from ./0.00/ti001.out...  5000 data points, 1 DV/DL averages
+Loading in data from ./0.35/ti001.out...  5000 data points, 1 DV/DL averages
+Loading in data from ./0.55/ti001.out...  5000 data points, 1 DV/DL averages
+Loading in data from ./0.90/ti001.out...  5000 data points, 1 DV/DL averages
+Loading in data from ./0.25/ti001.out...  5000 data points, 1 DV/DL averages
+Loading in data from ./0.05/ti001.out...  5000 data points, 1 DV/DL averages
+Loading in data from ./0.10/ti001.out...  5000 data points, 1 DV/DL averages
+Loading in data from ./0.45/ti001.out...  5000 data points, 1 DV/DL averages
+Loading in data from ./0.30/ti001.out...  5000 data points, 1 DV/DL averages
+Loading in data from ./0.80/ti001.out...  5000 data points, 1 DV/DL averages
+Loading in data from ./0.40/ti001.out...  5000 data points, 1 DV/DL averages
+Loading in data from ./0.65/ti001.out...  5000 data points, 1 DV/DL averages
+Loading in data from ./1.00/ti001.out...  5000 data points, 1 DV/DL averages
+Loading in data from ./0.50/ti001.out...  5000 data points, 1 DV/DL averages
+Loading in data from ./0.60/ti001.out...  5000 data points, 1 DV/DL averages
+Loading in data from ./0.70/ti001.out...  5000 data points, 1 DV/DL averages
+
+Sorting input data by starting time
+
+Note: BAR/MBAR results are not computed.
+
+Skipping first 1000 steps (= 2000.000000 ps)
+
+
+The gradients (DV/DL) from the correlated samples (kcal/mol):
+
+Lambda   gradient
+-----------------
+0.00000     4.906
+0.05000     4.280
+0.10000     3.513
+0.15000     3.072
+0.20000     2.427
+0.25000     1.758
+0.30000     1.401
+0.35000     0.934
+0.40000     0.393
+0.45000    -0.047
+0.50000    -0.386
+0.55000    -0.767
+0.60000    -1.088
+0.65000    -1.318
+0.70000    -1.610
+0.75000    -1.848
+0.80000    -2.029
+0.85000    -2.254
+0.90000    -2.465
+0.95000    -2.619
+1.00000    -2.843
+-----------------
+   dG =     0.119
+
+The correlated gradient (DV/DL) components from _every_single_ step (kcal/mol):
+
+Lambda       BOND     ANGLE     DIHED    1-4 NB   1-4 EEL   VDWAALS     EELEC RESTRAINT
+---------------------------------------------------------------------------------------
+0.00000     0.000     0.000     0.000     0.000     0.165     0.000     4.756     0.000
+0.05000     0.000     0.000     0.000     0.000     0.165     0.000     4.098     0.000
+0.10000     0.000     0.000     0.000     0.000     0.165     0.000     3.361     0.000
+0.15000     0.000     0.000     0.000     0.000     0.165     0.000     2.891     0.000
+0.20000     0.000     0.000     0.000     0.000     0.165     0.000     2.253     0.000
+0.25000     0.000     0.000     0.000     0.000     0.165     0.000     1.625     0.000
+0.30000     0.000     0.000     0.000     0.000     0.165     0.000     1.228     0.000
+0.35000     0.000     0.000     0.000     0.000     0.165     0.000     0.764     0.000
+0.40000     0.000     0.000     0.000     0.000     0.165     0.000     0.236     0.000
+0.45000     0.000     0.000     0.000     0.000     0.164     0.000    -0.203     0.000
+0.50000     0.000     0.000     0.000     0.000     0.165     0.000    -0.537     0.000
+0.55000     0.000     0.000     0.000     0.000     0.165     0.000    -0.935     0.000
+0.60000     0.000     0.000     0.000     0.000     0.164     0.000    -1.234     0.000
+0.65000     0.000     0.000     0.000     0.000     0.165     0.000    -1.469     0.000
+0.70000     0.000     0.000     0.000     0.000     0.165     0.000    -1.754     0.000
+0.75000     0.000     0.000     0.000     0.000     0.165     0.000    -2.012     0.000
+0.80000     0.000     0.000     0.000     0.000     0.165     0.000    -2.198     0.000
+0.85000     0.000     0.000     0.000     0.000     0.164     0.000    -2.407     0.000
+0.90000     0.000     0.000     0.000     0.000     0.164     0.000    -2.603     0.000
+0.95000     0.000     0.000     0.000     0.000     0.165     0.000    -2.780     0.000
+1.00000     0.000     0.000     0.000     0.000     0.165     0.000    -2.992     0.000
+---------------------------------------------------------------------------------------
+   dG =     0.000     0.000     0.000     0.000     0.165     0.000    -0.040     0.000 
+
+
+
+Number of correlated and uncorrelated samples:
+
+ State            N          N_k        N/N_k
+
+     0         2803         2803         1.43
+     1         2874         2874         1.39
+     2         2757         2757         1.45
+     3         2490         2490         1.61
+     4         2754         2754         1.45
+     5         2612         2612         1.53
+     6         2566         2566         1.56
+     7         3209         3209         1.25
+     8         2671         2671         1.50
+     9         3220         3220         1.24
+    10         3300         3300         1.21
+    11         3277         3277         1.22
+    12         3476         3476         1.15
+    13         3420         3420         1.17
+    14         3677         3677         1.09
+    15         3964         3964         1.01
+    16         3490         3490         1.15
+    17         3959         3959         1.01
+    18         3910         3910         1.02
+    19         3678         3678         1.09
+    20         3695         3695         1.08
+Estimating the free energy change with TI...
+------------ ------------------------- 
+   States             TI (kcal/mol)    
+------------ ------------------------- 
+   0 -- 1         0.23034  +-  0.00183 
+   1 -- 2         0.19605  +-  0.00180 
+   2 -- 3         0.16461  +-  0.00185 
+   3 -- 4         0.13801  +-  0.00183 
+   4 -- 5         0.10466  +-  0.00175 
+   5 -- 6         0.07820  +-  0.00172 
+   6 -- 7         0.05834  +-  0.00161 
+   7 -- 8         0.03324  +-  0.00155 
+   8 -- 9         0.00882  +-  0.00148 
+   9 -- 10       -0.01111  +-  0.00132 
+  10 -- 11       -0.02958  +-  0.00123 
+  11 -- 12       -0.04688  +-  0.00115 
+  12 -- 13       -0.06067  +-  0.00108 
+  13 -- 14       -0.07354  +-  0.00104 
+  14 -- 15       -0.08625  +-  0.00096 
+  15 -- 16       -0.09703  +-  0.00092 
+  16 -- 17       -0.10721  +-  0.00090 
+  17 -- 18       -0.11796  +-  0.00087 
+  18 -- 19       -0.12724  +-  0.00087 
+  19 -- 20       -0.13639  +-  0.00085 
+------------ ------------------------- 
+    TOTAL:        0.11840  +-  0.00863 
+
+**************************************
+   The above table has been stored in   
+             ./results.txt              
+     while the full-precision data      
+ (along with the simulation profile) in 
+            ./results.pickle            
+**************************************
+
+Time spent: 0 hours, 9 minutes, and 35.98 seconds.
+Finished on Tue Aug 13 17:41:44 2024

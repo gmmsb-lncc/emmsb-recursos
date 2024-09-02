@@ -1,0 +1,13 @@
+Minimize water
+ System minimization:
+&cntrl
+   imin=1, ntmin=1, nmropt=0, drms=0.1
+   maxcyc=1000, ncyc=500, 
+   ntx=1, irest=0,
+   ntpr=100, ntwr=100, iwrap=0,
+   ntf=1, ntb=1, cut=10.0, nsnb=20,
+   igb=0,
+   ibelly=0, ntr=1,
+   restraintmask=":1-163&!@H=", restraint_wt=10.0,
+&end
+ /

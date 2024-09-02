@@ -1,0 +1,12 @@
+inimize all atoms
+  System minimization:
+&cntrl
+   imin=1, ntmin=1, nmropt=0, drms=0.1
+   maxcyc=60000, ncyc=3500,
+   ntx=1, irest=0,
+   ntpr=100, ntwr=100, iwrap=0,
+   ntf=1, ntb=1, cut=10.0, nsnb=20,
+   igb=0,
+   ibelly=0, ntr=0,
+&end
+ /
