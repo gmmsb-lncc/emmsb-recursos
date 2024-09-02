@@ -1,0 +1,4 @@
+parm lyz_bnz_dech.parm7
+trajin lyz_bnz_dech.rst7 
+distance d1 :164@C2 :99@CA out dist.dat
+go

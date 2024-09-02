@@ -1,0 +1,5 @@
+parm lyz_bnz_dech.parm7
+trajin lyz_bnz_dech.rst7 
+angle a1 :78@CA :99@CA :164@C2 out angle.dat
+angle a2 :99@CA :164@C2 :164@C4 out angle.dat
+go
