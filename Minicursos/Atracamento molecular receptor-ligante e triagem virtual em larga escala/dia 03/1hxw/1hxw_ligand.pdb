@@ -1,0 +1,101 @@
+HETATM    1  C1  RIT B 301      16.662  17.790   1.494  1.00 25.90           C  
+HETATM    2  C2  RIT B 301      16.229  17.935   2.784  1.00 22.61           C  
+HETATM    3  S3  RIT B 301      17.345  17.324   4.036  1.00 37.28           S  
+HETATM    4  C4  RIT B 301      18.316  17.113   2.555  1.00 25.37           C  
+HETATM    5  N5  RIT B 301      17.867  17.366   1.377  1.00 26.82           N  
+HETATM    6  C6  RIT B 301      15.073  18.417   3.489  1.00 25.01           C  
+HETATM    7  O7  RIT B 301      15.186  19.813   3.708  1.00 23.27           O  
+HETATM    8  C10 RIT B 301      14.216  20.602   4.339  1.00 20.46           C  
+HETATM    9  N11 RIT B 301      14.650  21.872   4.525  1.00 21.07           N  
+HETATM   10  C12 RIT B 301      13.873  22.912   5.228  1.00 20.84           C  
+HETATM   11  C13 RIT B 301      13.503  24.140   4.392  1.00 14.80           C  
+HETATM   12  C14 RIT B 301      12.672  23.806   3.171  1.00 16.63           C  
+HETATM   13  C15 RIT B 301      11.140  23.572   3.315  1.00 17.71           C  
+HETATM   14  C18 RIT B 301       9.960  24.298   5.348  1.00 20.01           C  
+HETATM   15  C19 RIT B 301       9.274  25.515   5.996  1.00 16.74           C  
+HETATM   16  N20 RIT B 301       7.906  25.680   5.503  1.00 16.74           N  
+HETATM   17  C21 RIT B 301       7.665  26.518   4.481  1.00 19.37           C  
+HETATM   18  O24 RIT B 301      13.103  20.170   4.660  1.00 19.88           O  
+HETATM   19  C26 RIT B 301      14.261  23.243   6.671  1.00 20.89           C  
+HETATM   20  C28 RIT B 301      14.816  22.225   7.534  1.00 23.55           C  
+HETATM   21  C31 RIT B 301      13.799  21.708   8.344  1.00 22.42           C  
+HETATM   22  C32 RIT B 301      14.098  20.603   9.157  1.00 27.29           C  
+HETATM   23  C33 RIT B 301      15.374  20.013   9.171  1.00 23.46           C  
+HETATM   24  C34 RIT B 301      16.392  20.566   8.364  1.00 23.55           C  
+HETATM   25  C35 RIT B 301      16.115  21.668   7.549  1.00 22.31           C  
+HETATM   26  O41 RIT B 301      14.754  24.664   3.978  1.00 15.07           O  
+HETATM   27  C44 RIT B 301      10.569  23.586   1.929  1.00 16.65           C  
+HETATM   28  C45 RIT B 301       9.254  22.978   2.001  1.00 17.33           C  
+HETATM   29  C48 RIT B 301       8.149  23.845   2.018  1.00 16.59           C  
+HETATM   30  C49 RIT B 301       6.836  23.335   2.041  1.00 15.14           C  
+HETATM   31  C50 RIT B 301       6.660  21.949   2.026  1.00 16.63           C  
+HETATM   32  C51 RIT B 301       7.756  21.090   2.003  1.00 15.02           C  
+HETATM   33  C52 RIT B 301       9.059  21.593   1.992  1.00 11.94           C  
+HETATM   34  N58 RIT B 301      10.469  24.554   4.137  1.00 18.81           N  
+HETATM   35  O61 RIT B 301       9.968  23.159   5.858  1.00 17.30           O  
+HETATM   36  C62 RIT B 301       9.255  25.567   7.557  1.00 17.69           C  
+HETATM   37  C64 RIT B 301      10.596  25.275   8.282  1.00 17.97           C  
+HETATM   38  C68 RIT B 301       8.565  26.841   8.095  1.00 11.98           C  
+HETATM   39  N74 RIT B 301       6.423  26.400   3.958  1.00 22.34           N  
+HETATM   40  C75 RIT B 301       5.969  27.345   2.938  1.00 22.61           C  
+HETATM   41  O76 RIT B 301       8.471  27.427   4.192  1.00 17.30           O  
+HETATM   42  C77 RIT B 301       5.910  26.849   1.559  1.00 24.53           C  
+HETATM   43  C80 RIT B 301       7.024  27.012   0.784  1.00 25.95           C  
+HETATM   44  S81 RIT B 301       6.639  26.257  -0.785  1.00 28.31           S  
+HETATM   45  C82 RIT B 301       5.087  25.736  -0.124  1.00 30.65           C  
+HETATM   46  N83 RIT B 301       4.871  26.263   1.044  1.00 28.12           N  
+HETATM   47  C85 RIT B 301       4.497  24.886  -1.046  1.00 36.11           C  
+HETATM   48  C86 RIT B 301       4.139  25.131  -2.506  1.00 37.18           C  
+HETATM   49  C90 RIT B 301       3.245  24.373  -0.462  1.00 36.27           C  
+HETATM   50  C95 RIT B 301       5.484  25.508   4.240  1.00 19.68           C  
+CONECT    1    2    5
+CONECT    2    1    3    6
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    1    4
+CONECT    6    2    7
+CONECT    7    6    8
+CONECT    8    7    9   18
+CONECT    9    8   10
+CONECT   10    9   11   19
+CONECT   11   10   12   26
+CONECT   12   11   13
+CONECT   13   12   27   34
+CONECT   14   35   15   34
+CONECT   15   14   36   16
+CONECT   16   15   17
+CONECT   17   16   39   41
+CONECT   18    8
+CONECT   19   10   20
+CONECT   20   19   21   25
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   20   24
+CONECT   26   11
+CONECT   27   13   28
+CONECT   28   27   29   33
+CONECT   29   28   30
+CONECT   30   29   31
+CONECT   31   30   32
+CONECT   32   31   33
+CONECT   33   28   32
+CONECT   34   13   14
+CONECT   35   14
+CONECT   36   15   37   38
+CONECT   37   36
+CONECT   38   36
+CONECT   39   17   40   50
+CONECT   40   39   42
+CONECT   41   17
+CONECT   42   40   43   46
+CONECT   43   42   44
+CONECT   44   43   45
+CONECT   45   44   46   47
+CONECT   46   42   45
+CONECT   47   45   48   49
+CONECT   48   47
+CONECT   49   47
+CONECT   50   39
+END

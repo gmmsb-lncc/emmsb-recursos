@@ -1,0 +1,55 @@
+HETATM    1  C1  BNZ A 168      25.885   5.016   4.189  1.00 11.78           C  
+HETATM    2  C2  BNZ A 168      25.868   5.848   5.305  1.00 12.78           C  
+HETATM    3  C3  BNZ A 168      26.671   6.992   5.318  1.00 12.39           C  
+HETATM    4  C4  BNZ A 168      27.479   7.294   4.217  1.00 12.72           C  
+HETATM    5  C5  BNZ A 168      27.489   6.465   3.103  1.00 12.49           C  
+HETATM    6  C6  BNZ A 168      26.693   5.321   3.094  1.00 12.39           C  
+CONECT    1    2
+CONECT    1    2
+CONECT    1    2
+CONECT    1    2
+CONECT    1    6
+CONECT    1    6
+CONECT    1    6
+CONECT    1    6
+CONECT    2    1
+CONECT    2    1
+CONECT    2    1
+CONECT    2    1
+CONECT    2    3
+CONECT    2    3
+CONECT    2    3
+CONECT    2    3
+CONECT    3    2
+CONECT    3    2
+CONECT    3    2
+CONECT    3    2
+CONECT    3    4
+CONECT    3    4
+CONECT    3    4
+CONECT    3    4
+CONECT    4    3
+CONECT    4    3
+CONECT    4    3
+CONECT    4    3
+CONECT    4    5
+CONECT    4    5
+CONECT    4    5
+CONECT    4    5
+CONECT    5    4
+CONECT    5    4
+CONECT    5    4
+CONECT    5    4
+CONECT    5    6
+CONECT    5    6
+CONECT    5    6
+CONECT    5    6
+CONECT    6    1
+CONECT    6    1
+CONECT    6    1
+CONECT    6    1
+CONECT    6    5
+CONECT    6    5
+CONECT    6    5
+CONECT    6    5
+END

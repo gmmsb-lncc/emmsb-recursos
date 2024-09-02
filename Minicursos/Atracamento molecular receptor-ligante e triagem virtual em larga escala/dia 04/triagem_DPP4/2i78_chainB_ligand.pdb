@@ -1,0 +1,63 @@
+HETATM    1  N   KIQ B 901     -14.473  -7.073  61.597  1.00 25.29      E    N  
+HETATM    2  C   KIQ B 901     -15.692  -6.886  60.841  1.00 25.77      E    C  
+HETATM    3  O   KIQ B 901     -19.422  -7.904  62.238  1.00 31.09      E    O  
+HETATM    4  C3  KIQ B 901     -16.844  -6.638  61.804  1.00 26.08      E    C  
+HETATM    5  C4  KIQ B 901     -18.133  -6.441  61.034  1.00 28.53      E    C  
+HETATM    6  C5  KIQ B 901     -19.375  -6.794  61.726  1.00 31.43      E    C  
+HETATM    7  N7  KIQ B 901     -20.392  -5.918  61.822  1.00 34.70      E    N  
+HETATM    8  C8  KIQ B 901     -20.320  -4.520  61.353  1.00 36.65      E    C  
+HETATM    9  C9  KIQ B 901     -21.493  -4.164  60.437  1.00 39.34      E    C  
+HETATM   10  N10 KIQ B 901     -22.744  -4.744  60.939  1.00 42.66      E    N  
+HETATM   11  C11 KIQ B 901     -22.821  -5.713  61.868  1.00 41.60      E    C  
+HETATM   12  C12 KIQ B 901     -21.618  -6.326  62.519  1.00 39.21      E    C  
+HETATM   13  N13 KIQ B 901     -24.122  -6.036  62.101  1.00 42.83      E    N  
+HETATM   14  N14 KIQ B 901     -24.917  -5.226  61.276  1.00 43.09      E    N  
+HETATM   15  C15 KIQ B 901     -24.017  -4.485  60.614  1.00 43.67      E    C  
+HETATM   16  C16 KIQ B 901     -24.478  -3.463  59.616  1.00 44.55      E    C  
+HETATM   17  C20 KIQ B 901     -18.134  -5.992  59.754  1.00 26.58      E    C  
+HETATM   18  C21 KIQ B 901     -16.865  -5.763  58.957  1.00 25.28      E    C  
+HETATM   19  C22 KIQ B 901     -15.641  -5.707  59.867  1.00 25.24      E    C  
+HETATM   20  C23 KIQ B 901     -14.392  -5.688  59.067  1.00 25.38      E    C  
+HETATM   21  C24 KIQ B 901     -14.217  -6.536  57.974  1.00 24.92      E    C  
+HETATM   22  C25 KIQ B 901     -13.033  -6.497  57.242  1.00 24.32      E    C  
+HETATM   23  C27 KIQ B 901     -12.017  -5.625  57.584  1.00 25.48      E    C  
+HETATM   24  C29 KIQ B 901     -12.194  -4.773  58.673  1.00 25.13      E    C  
+HETATM   25  C30 KIQ B 901     -13.371  -4.818  59.406  1.00 24.27      E    C  
+HETATM   26  F   KIQ B 901     -25.732  -3.195  59.918  1.00 46.37      E    F  
+HETATM   27  F18 KIQ B 901     -23.779  -2.339  59.703  1.00 45.87      E    F  
+HETATM   28  F19 KIQ B 901     -24.415  -3.967  58.389  1.00 46.19      E    F  
+HETATM   29  F26 KIQ B 901     -12.863  -7.306  56.190  1.00 24.43      E    F  
+HETATM   30  F28 KIQ B 901     -10.868  -5.614  56.866  1.00 26.22      E    F  
+HETATM   31  F31 KIQ B 901     -13.509  -4.008  60.453  1.00 26.04      E    F  
+CONECT    1    2
+CONECT    2    1    4   19
+CONECT    3    6
+CONECT    4    2    5
+CONECT    5    4    6   17
+CONECT    6    3    5    7
+CONECT    7    6    8   12
+CONECT    8    7    9
+CONECT    9    8   10
+CONECT   10    9   11   15
+CONECT   11   10   12   13
+CONECT   12    7   11
+CONECT   13   11   14
+CONECT   14   13   15
+CONECT   15   10   14   16
+CONECT   16   15   26   27   28
+CONECT   17    5   18
+CONECT   18   17   19
+CONECT   19    2   18   20
+CONECT   20   19   21   25
+CONECT   21   20   22
+CONECT   22   21   23   29
+CONECT   23   22   24   30
+CONECT   24   23   25
+CONECT   25   20   24   31
+CONECT   26   16
+CONECT   27   16
+CONECT   28   16
+CONECT   29   22
+CONECT   30   23
+CONECT   31   25
+END
