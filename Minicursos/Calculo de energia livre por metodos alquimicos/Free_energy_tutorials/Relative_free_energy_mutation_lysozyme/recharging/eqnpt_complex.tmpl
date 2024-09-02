@@ -1,0 +1,17 @@
+TI simulation
+ &cntrl
+   imin = 0, nstlim = 5000, irest = 1, ntx = 5, dt = 0.002,
+   ntt = 3, temp0 = 298.15, gamma_ln = 2.0, ig = -1,
+   ntc = 2, ntf = 1,
+   ntb = 2, ntwprt = 2640,
+   ntp = 1, barostat = 2,  pres0 = 1.0, taup = 2.0,
+   ioutfm = 1, iwrap = 1,
+   ntwe = 1000, ntwx = 1000, ntpr = 1000, ntwr = 1000,
+   icfe = 1, clambda = %L%, scalpha = 0.5, scbeta = 12.0,
+   logdvdl = 1,
+   timask1 = ':99', timask2 = ':163',
+   %FE%
+ /
+
+ &ewald
+ / 
