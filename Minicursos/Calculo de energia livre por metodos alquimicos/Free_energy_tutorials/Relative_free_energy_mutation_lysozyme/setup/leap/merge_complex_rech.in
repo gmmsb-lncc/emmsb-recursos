@@ -1,0 +1,6 @@
+loadRestrt mlz_bnz_rech.rst7
+setOverwrite True
+tiMerge :1-162 :163-324 :99 :261
+outparm merged_mlz_bnz_rech.parm7 merged_mlz_bnz_rech.rst7
+outpdb merged_mlz_bnz_rech.pdb 
+quit

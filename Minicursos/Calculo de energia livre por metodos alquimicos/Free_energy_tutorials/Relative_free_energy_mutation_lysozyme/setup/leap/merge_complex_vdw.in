@@ -1,0 +1,6 @@
+loadRestrt lyz_mlz_bnz_vdw.rst7
+setOverwrite True
+tiMerge :1-162 :163-324 :99 :261
+outparm merged_lyz_mlz_bnz_vdw.parm7 merged_lyz_mlz_bnz_vdw.rst7
+outpdb merged_lyz_mlz_bnz_vdw.pdb 
+quit
