@@ -1,0 +1,21 @@
+minimize all atoms
+ System minimization:
+ &cntrl
+   imin=1, ntmin=2, drms=0.1
+   maxcyc=5000,
+   ntx=1, irest=0, nmropt = 1,pencut = -1,
+   ntpr=100, ntwr=100, iwrap=0,
+   ntf=1, ntb=1, cut=10.0, nsnb=20,
+   igb=0,
+   ibelly=0,
+   icfe = 1, clambda = %L%, scalpha = 0.5, scbeta = 12.0,
+   logdvdl = 0,
+   timask1 = ':163', timask2 = '',
+   %FE%
+ /
+ &ewald
+ /
+ &wt type = 'END', /
+ DISANG=disang_vdw.rest
+ LISTOUT=POUT
+  /
