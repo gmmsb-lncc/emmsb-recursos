@@ -1,0 +1,66 @@
+#load force fileds and ligand parameter files 
+source leaprc.protein.ff14SB
+source leaprc.water.tip3p
+source leaprc.gaff2
+loadamberparams bnz.frcmod
+
+#load structure files for the proteins and the ligand
+BNZ = loadmol2 bnz_bcc.mol2
+prot = loadpdb LYZ.pdb
+protmut = loadpdb LYZ_A99V.pdb
+wat = loadpdb water.pdb
+
+#generate topology and restart files for the native complex decharging step
+cdecharge = combine { prot prot BNZ wat }
+solvateoct cdecharge TIP3PBOX 10 0.75
+addionsrand cdecharge Cl- 9
+saveamberparm cdecharge lyz_bnz_dech.parm7 lyz_bnz_dech.rst7 
+savepdb cdecharge lyz_bnz_dech.pdb
+
+#generate topology and restart files for the free native protein decharging step
+decharge = combine { prot prot }
+solvateoct decharge TIP3PBOX 10 0.75
+addionsrand decharge Cl- 9
+saveamberparm decharge lyz_dech.parm7 lyz_dech.rst7
+savepdb decharge lyz_dech.pdb
+
+#generate topology and restart files for the complex van der Waals transformation
+cvdw = combine { prot protmut BNZ wat }
+solvateoct cvdw TIP3PBOX 10 0.75 
+addionsrand cvdw Cl- 9
+saveamberparm cvdw lyz_mlz_bnz_vdw.parm7 lyz_mlz_bnz_vdw.rst7
+savepdb cvdw lyz_mlz_bnz_vdw.pdb 
+
+#generate topology and restart files for the free protein van der Waals transformation
+vdw = combine { prot protmut wat }
+solvateoct vdw TIP3PBOX 10 0.75
+addionsrand vdw Cl- 9
+saveamberparm vdw lyz_mlz_vdw.parm7 lyz_mlz_vdw.rst7
+savepdb vdw lyz_mlz_vdw.pdb
+
+#generate topology and restart files for the complex recharging step
+crecharge = combine { protmut protmut BNZ wat  }
+solvateoct crecharge TIP3PBOX 10 0.75
+addionsrand crecharge Cl- 9
+saveamberparm crecharge mlz_bnz_rech.parm7 mlz_bnz_rech.rst7 
+savepdb crecharge mlz_bnz_rech.pdb 
+
+#generate topology and restart files for the free protein recharging step
+recharge = combine { protmut protmut wat }
+solvateoct recharge TIP3PBOX 10 0.75
+addionsrand recharge Cl- 9
+saveamberparm recharge mlz_rech.parm7 mlz_rech.rst7
+savepdb recharge mlz_rech.pdb 
+
+#check net charges for the generated complexes
+charge decharge
+charge vdw 
+charge recharge
+charge cdecharge
+charge cvdw
+charge crecharge
+
+charge prot
+quit
+
+ 
