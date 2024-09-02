@@ -1,0 +1,1 @@
+/home/jhernandez/software/amber18/miniconda/bin/python2.7 /home/jhernandez/software/amber18/miniconda/lib/python2.7/site-packages/alchemical_analysis-1.0.2.dev0-py2.7.egg/alchemical_analysis/alchemical_analysis.py -a AMBER -d . -p *.*/ti00[1-5] -q out -o . -r 5 -u kcal -s 2000 --methods=TI -i 1
