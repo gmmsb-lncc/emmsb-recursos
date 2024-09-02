@@ -1,0 +1,55 @@
+# 08/11/24 18:33:03
+# Args:  -p merged_lyz_bnz_phn_vdw.parm7
+# Loaded topologies:
+#   merged_lyz_bnz_phn_vdw.parm7
+trajin merged_lyz_bnz_phn_vdw.rst7
+trajout merged_lyz_bnz_phn_vdw.pdb
+go
+# 08/11/24 18:34:23
+# Args:  -p merged_lyz_bnz_phn_vdw.parm7
+# Loaded topologies:
+#   merged_lyz_bnz_phn_vdw.parm7
+trajin merge*rst7
+# 08/11/24 18:35:20
+# Args:  -p merged_lyz_bnz_phn_vdw.parm7
+# Loaded topologies:
+#   merged_lyz_bnz_phn_vdw.parm7
+trajin merge*rst7
+strip :*&!(:163-164)
+trajout merged_ligands.mol2
+go
+# 08/11/24 18:50:35
+# Args:  -p merged_bnz_phn_vdw.parm7
+# Loaded topologies:
+#   merged_bnz_phn_vdw.parm7
+trajin merged_bnz_phn_vdw.rst7
+trajout merged_bnz_phn_vdw.pdb
+go
+# 08/11/24 19:11:53
+# Args:  -p merged_lyz_bnz_dech.parm7
+# Loaded topologies:
+#   merged_lyz_bnz_dech.parm7
+trajin merged_lyz_bnz_dech.rst7
+trajout merged_lyz_bnz_dech.pdb
+go
+# 08/11/24 19:14:05
+# Args:  -p merged_bnz_dech.parm7
+# Loaded topologies:
+#   merged_bnz_dech.parm7
+trajin merged_bnz_dech.rst7
+trajout merged_bnz_dech.pdb
+go
+# 08/11/24 19:14:32
+# Args:  -p merged_phn_rech.parm7
+# Loaded topologies:
+#   merged_phn_rech.parm7
+trajin merged_phn_rech.rst7
+trajout merged_phn_rech.pdb
+go
+# 08/11/24 19:15:26
+# Args:  -p merged_lyz_phn_rech.parm7
+# Loaded topologies:
+#   merged_lyz_phn_rech.parm7
+trajin merged_lyz_phn_rech.rst7
+trajout merged_lyz_phn_rech.pdb
+go

@@ -1,0 +1,63 @@
+#load force fileds and ligand parameter files 
+source leaprc.protein.ff19SB
+source leaprc.water.opc 
+source leaprc.gaff2
+loadamberparams phn.frcmod 
+loadamberparams bnz.frcmod
+
+#load structure files for the protein and ligands
+PHN = loadmol2 phn_bcc.mol2
+BNZ = loadmol2 bnz_bcc.mol2
+prot = loadpdb LYZ.pdb
+wat = loadpdb water.pdb
+
+#generate topology and restart files for the complex decharging step
+decharge = combine { prot BNZ BNZ wat }
+solvateoct decharge OPCBOX 10 0.75
+addionsrand decharge Na+ 0
+addionsrand decharge Cl- 0
+saveamberparm decharge lyz_bnz_dech.parm7 lyz_bnz_dech.rst7 
+savepdb decharge lyz_bnz_dech.pdb
+
+#generate topology and restart files for the ligand decharging step
+ldecharge = combine { BNZ BNZ }
+solvateoct ldecharge OPCBOX 18 0.75
+saveamberparm ldecharge bnz_dech.parm7 bnz_dech.rst7
+savepdb ldecharge bnz_dech.pdb
+
+#generate topology and restart files for the complex van der Waals transformation
+vdw = combine { prot BNZ PHN wat }
+solvateoct vdw OPCBOX 10 0.75 
+addionsrand vdw Na+ 0
+addionsrand vdw Cl- 0 
+saveamberparm vdw lyz_bnz_phn_vdw.parm7 lyz_bnz_phn_vdw.rst7
+savepdb vdw lyz_bnz_phn_vdw.pdb 
+
+#generate topology and restart files for the ligand van der Waals transformation
+lvdw = combine { BNZ PHN }
+solvateoct lvdw OPCBOX 18 0.75
+saveamberparm lvdw bnz_phn_vdw.parm7 bnz_phn_vdw.rst7
+savepdb lvdw bnz_phn_vdw.pdb
+
+#generate topology and restart files for the complex recharging step
+recharge = combine { prot PHN PHN wat  }
+solvateoct recharge OPCBOX 10 0.75
+addionsrand recharge Na+ 0
+addionsrand recharge Cl- 0
+saveamberparm recharge lyz_phn_rech.parm7 lyz_phn_rech.rst7 
+savepdb recharge lyz_phn_rech.pdb 
+
+#generate topology and restart files for the lingad recharging step
+lrecharge = combine { PHN PHN }
+solvateoct lrecharge OPCBOX 18 0.75
+saveamberparm lrecharge phn_rech.parm7 phn_rech.rst7
+savepdb lrecharge phn_rech.pdb 
+
+#check net charges for the generated complexes
+charge decharge
+charge vdw 
+charge recharge
+
+quit
+
+ 
