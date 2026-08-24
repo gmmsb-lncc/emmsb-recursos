@@ -1,0 +1,83 @@
+####################################
+ 
+structure       ../PSFFILE
+coordinates     PDBFILE
+velocities      cycle_VEL.vel
+extendedSystem  cycle_XSC.xsc
+outputname      cycle_SORTIE
+ 
+paraTypeCharmm on
+parameters          ../toppar/par_all36m_prot.prm
+parameters          ../toppar/par_all36_na.prm
+parameters          ../toppar/par_all36_carb.prm
+parameters          ../toppar/par_all36_lipid.prm
+parameters          ../toppar/par_all36_cgenff.prm
+parameters          ../toppar/toppar_water_ions.str
+parameters          ../toppar/toppar_dum_noble_gases.str
+parameters          ../toppar/toppar_all36_prot_fluoro_alkanes.str
+parameters          ../toppar/toppar_all36_prot_heme.str
+parameters          ../toppar/toppar_all36_prot_na_combined.str
+parameters          ../toppar/toppar_all36_prot_retinol.str
+parameters          ../toppar/toppar_all36_na_nad_ppi.str
+parameters          ../toppar/toppar_all36_na_rna_modified.str
+parameters          ../toppar/toppar_all36_lipid_bacterial.str
+parameters          ../toppar/toppar_all36_lipid_cardiolipin.str
+parameters          ../toppar/toppar_all36_lipid_cholesterol.str
+parameters          ../toppar/toppar_all36_lipid_inositol.str
+parameters          ../toppar/toppar_all36_lipid_lps.str
+parameters          ../toppar/toppar_all36_lipid_miscellaneous.str
+parameters          ../toppar/toppar_all36_lipid_model.str
+parameters          ../toppar/toppar_all36_lipid_prot.str
+parameters          ../toppar/toppar_all36_lipid_sphingo.str
+parameters          ../toppar/toppar_all36_lipid_yeast.str
+parameters          ../toppar/toppar_all36_lipid_hmmm.str
+parameters          ../toppar/toppar_all36_lipid_detergent.str
+parameters          ../toppar/toppar_all36_carb_glycolipid.str
+parameters          ../toppar/toppar_all36_carb_glycopeptide.str
+parameters          ../toppar/toppar_all36_carb_imlab.str
+ 
+outputEnergies     100                 ;#NPRINT - interval in, integration steps, of
+restartfreq        5000                ;#ISVFRQ - frequency of writing restart coor and vel
+binaryoutput       no
+binaryrestart      no                  ;#restart files are not in binary format
+
+dcdUnitCell        yes ;
+dcdfreq            0                   ;#NSAVC - frequency of writing dcd files
+xstFreq            5000                ;#IXTFRQ - frequency of writing extended system
+
+exclude             scaled1-4          # non-bonded exclusion policy to use "none,1-2,1-3,1-4,or scaled1-4"
+1-4scaling          1.0
+switching            on
+vdwForceSwitching   yes;
+switchdist           8.0               ;#CTONNB
+cutoff              10.0               ;#CTOFNB
+pairlistdist        12.0               ;#CUTNB
+
+PME                 yes  ;# turning on PME
+PMEGridSpacing      1.0 ;# TEST
+PMEInterpOrder      6   ;# default for cubic
+
+wrapAll              on
+
+# Integrator Parameters
+timestep            2.0;           # fs/step
+rigidBonds          all;           # Bound constraint all bonds involving H are fixed in length
+nonbondedFreq         1;           # nonbonded forces update
+fullElectFrequency    2;           # PME update
+stepspercycle        20;           # 20 redo pairlists every ten steps
+
+# Constant Pressure Control (variable volume)
+useGroupPressure       yes;                                             
+langevinPiston         on;            
+langevinPistonTarget   1.01325;         
+langevinPistonPeriod   50.0;                            
+langevinPistonDecay   25.0;           
+langevinPistonTemp    TEMP;            
+
+# Constant Temperature Control
+langevin                on;            
+langevinDamping        1.0;            
+langevinTemp           TEMP;            
+langevinHydrogen       off;   
+
+run TS

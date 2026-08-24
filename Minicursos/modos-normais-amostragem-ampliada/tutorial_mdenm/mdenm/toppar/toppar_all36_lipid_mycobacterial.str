@@ -1,0 +1,26 @@
+* Mycobacterial (AcPIM2) related parameters
+*
+
+BONDS
+CC2O5  CTL2   200.00     1.5220 ! CG2O2  CG321 ! PROT adm jr. 5/02/91, acetic acid pure solvent
+
+ANGLES
+CTL2  CC2O5  OC301    55.00    109.00   20.00   2.32600 ! CG321  CG2O2  OG302 ! LIPID methyl acetate
+OC2D1 CC2O5  CTL2     70.00    125.00   20.00   2.44200 ! CG321  CG2O2  OG2D1 ! PROT adm jr. 5/02/91, acetic acid pure solvent; LIPID methyl acetate
+CC2O5 CTL2   HAL2     33.00    109.50   30.00   2.16300 ! CG2O2  CG321  HGA2  ! acetic acid pure solvent
+CC2O5 CTL2   CTL2     52.00    108.00                   ! CG2O2  CG321  CG321 ! LIPID alkane
+
+DIHEDRALS
+OC301    CC2O5    CTL2     HAL2       0.0000  3     0.00 ! OG302  CG2O2  CG321  HGA2  ! LIPID acetic Acid
+OC2D1    CC2O5    CTL2     HAL2       0.0000  6   180.00 ! OG2D1  CG2O2  CG321  HGA2  ! PROT adm jr. 3/19/92, from lipid methyl acetate; LIPID acetic Acid
+OC2D1    CC2O5    CTL2     CTL2       0.0500  6   180.00 ! OG2D1  CG2O2  CG321  CG321 ! LIPID methyl acetate
+OC301    CC2O5    CTL2     CTL2       0.5300  2   180.00 ! OG302  CG2O2  CG321  CG321 ! LIPID methyl propionate, 12/92
+CC3161   OC301    CC2O5    CTL2       2.0500  2   180.00 ! CG311  CG2O2  OG302  CG321 ! ABGA, ALPHA BENZYL GLU ACID CDCA AMIDE, cacha
+
+
+IMPROPERS
+CC2O5  X    X    OC2D1         100.00    0     0.00 ! OBL  X    X    CL ! acetic acid
+END
+
+RETURN
+

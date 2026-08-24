@@ -1,4 +1,7 @@
-| Minicurso | Ministrantes | Material | 
-|-----------|--------------|----------|
-| Introdução à Visualização Molecular para Publicação Científica | Lucianna Santos e Deborah Antunes | [Site](https://deborahantunes.github.io/emmsb2026-visualizacao-molecular/) · [Repositório](https://github.com/deborahantunes/emmsb2026-visualizacao-molecular) |
-| Docking Proteína-Proteína | Matheus Landim e Priscila Capriles | [Site](https://github.com/mjnlandim76/emmsb-docking-proteina-proteina) · [Repositório](https://github.com/mjnlandim76/emmsb-docking-proteina-proteina) |
+# Minicursos — XII EMMSB
+
+| Minicurso | Ministrantes | Pasta | Material |
+|-----------|--------------|-------|----------|
+| Introdução à Visualização Molecular para Publicação Científica | Lucianna Santos e Deborah Antunes | [`visualizacao-molecular/`](./visualizacao-molecular) | [Site](https://deborahantunes.github.io/emmsb2026-visualizacao-molecular/) · [Repositório](https://github.com/deborahantunes/emmsb2026-visualizacao-molecular) |
+| Aplicação de programas de docking no estudo das interações proteína-proteína | Matheus Landim e Priscila Capriles | [`docking-proteina-proteina/`](./docking-proteina-proteina) | [Site](https://github.com/mjnlandim76/emmsb-docking-proteina-proteina) · [Repositório](https://github.com/mjnlandim76/emmsb-docking-proteina-proteina) |
+| Modos normais e métodos de amostragem ampliada usando movimentos coletivos de proteínas | a definir | [`modos-normais-amostragem-ampliada/`](./modos-normais-amostragem-ampliada) | a definir |

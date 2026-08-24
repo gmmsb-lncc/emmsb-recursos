@@ -1,0 +1,1 @@
+conda create --name tutorial -c conda-forge python=3.11 prody=2.3.0 scipy=1.13.1 numpy=1.26.4 pandas=2.2.2 notebook=7.2.1 jupyter=1.0.0 jupyter_client=8.6.2 jupyterlab=4.2.3 r-irkernel=1.3.2 pymol-open-source
