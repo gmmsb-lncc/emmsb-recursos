@@ -1,6 +1,6 @@
 # Modos normais e métodos de amostragem ampliada usando movimentos coletivos de proteínas
 
-**Ministrantes:** Ana Ligia Barbour Scott e Paulo Ricardo Batista
+**Ministrantes:** Ana Ligia Barbour Scott, Paulo Ricardo Batista e Yago Ferreira e Silva
 
 ## Conteúdo desta pasta
 
