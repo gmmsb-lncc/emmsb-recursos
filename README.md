@@ -3,9 +3,5 @@
 ![emmsb-front](./Assets/xii-emmsb-banner.jpeg)
 > Repositório para materiais e documentos relevantes usados na [XII EMMSB](https://www.emmsb.lncc.br/).
 
-## Minicurso de Aprendizado de Máquina
-
-Material do minicurso de aprendizado de máquina da XII EMMSB: [monteirotorres.github.io/ml/xiiemmsb](https://monteirotorres.github.io/ml/xiiemmsb).
-
-
+Os materiais dos minicursos estão em [Minicursos/](./Minicursos).
 
